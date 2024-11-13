@@ -10,7 +10,7 @@ st.title("Sthaan Bot")
 
 # Set OpenAI API key from Streamlit secrets
 client = OpenAI(api_key=os.environ["OPENAI"])
-sarvamai_api_key = os.environ["SARVAMAI"]
+sarvamai_api_key = os.environ["SARVAM"]
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_KEY = os.environ["SUPABASE_KEY"]
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
