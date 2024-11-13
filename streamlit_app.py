@@ -5,7 +5,6 @@ import requests
 import json
 from supabase import create_client, Client
 import random
-import base64
 
 st.title("Sthaan Bot")
 
